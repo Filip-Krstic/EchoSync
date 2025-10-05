@@ -21,24 +21,19 @@ This tool was developed to assist newly arriving Serbian students and other inte
   git clone https://github.com/yourusername/slovenian-translator.git cd slovenian-translator'''
 - Install dependencies:
 - ```bash
-  pip install -r requirements.txt
-  '''
+  pip install -r requirements.txt'''
 - Run the translator:
 - ``` bash
-  python translator.py --source sl --target en
-  '''
+  python translator.py --source sl --target en'''
 - ```bash
-  --source sl
-  '''
+  --source sl'''
   sets Slovenian as the input language.
 - ```bash
-  --target en
-  '''
+  --target en'''
   sets English as the output language.
 - You can also use
   ```bash
- --target sr
-  ''' 
+ --target sr''' 
   for Serbian.
 # GUI Overview- Start/Stop button to control live listening
 - Language dropdown to switch between English (en) and Serbian (sr)
