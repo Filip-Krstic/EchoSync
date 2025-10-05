@@ -1,4 +1,4 @@
-# Real-Time Slovenian Speech Translator
+# EchoSync A Real-Time Slovenian Lecture Translator
 
 This project provides a real-time speech translation system designed to support multilingual communication in academic settings. It captures spoken Slovenian, transcribes it using Google’s speech recognition, and translates it instantly into English or Serbian. A built-in graphical interface allows users to monitor translations live and export transcripts for later use.
 
