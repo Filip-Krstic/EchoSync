@@ -3,48 +3,58 @@ This project provides a real-time speech translation system designed to support 
 # Purpose
 This tool was developed to assist newly arriving Serbian students and other international students attending Slovenian universities. It enables them to follow lectures delivered in Slovenian by providing real-time translation into English or Serbian. The goal is to reduce language barriers in the classroom and promote inclusive, accessible learning environments.
 # Features
-- Real-time speech recognition using Google Speech API
-- Instant translation into English or Serbian via Deep Translator
-- Graphical user interface with side-by-side source and translated text
-- Language switching during runtime
-- Transcript export to .txt format
-- Adjustable window transparency for unobtrusive overlay
-- Console fallback if GUI is unavailable
+• 	Real-time speech recognition using Google Speech API
+• 	Instant translation into English or Serbian via Deep Translator
+• 	Graphical user interface with side-by-side source and translated text
+• 	Language switching during runtime
+• 	Transcript export to  format
+• 	Adjustable window transparency for unobtrusive overlay
+• 	Console fallback if GUI is unavailable
 # System Requirements
-- Python 3.7 or higher
-- Internet connection (required for speech recognition and translation)
-- Microphone input
-- Optional: tkinter for GUI (pre-installed on most systems)
+• 	Python 3.7 or higher
+• 	Internet connection (required for speech recognition and translation)
+• 	Microphone input
+• 	Optional:  for GUI (pre-installed on most systems)
 # Installation
-- Clone the repository:
-- ```bash
-  git clone https://github.com/yourusername/slovenian-translator.git cd slovenian-translator'''
-- Install dependencies:
-- ```bash
-  pip install -r requirements.txt'''
-- Run the translator:
-- ``` bash
-  python translator.py --source sl --target en'''
-- ```bash
-  --source sl'''
-  sets Slovenian as the input language.
-- ```bash
-  --target en'''
-  sets English as the output language.
-- You can also use
-  ```bash
- --target sr''' 
-  for Serbian.
-# GUI Overview- Start/Stop button to control live listening
-- Language dropdown to switch between English (en) and Serbian (sr)
-- Save button to export the full transcript
-- Transparency slider to adjust window opacity
-# Limitations- Only supports Slovenian as the input language
-- Translation accuracy depends on Google Translate
-- GUI requires tkinter; falls back to console mode if unavailable
+Clone the repository
+'''bash
+git clone https://github.com/yourusername/slovenian-translator.git
+cd slovenian-translator
+'''
+# Install dependencies
+'''bash
+pip install -r requirements.txt
+'''
+Run the translator
+'''bash
+python translator.py --source sl --target en
+'''
+Command-line options
+'''bash
+--source sl
+'''
+Sets Slovenian as the input language.
+'''bash
+--target en
+'''
+Sets English as the output language.
+You can also use:
+'''bash
+--target sr
+'''
+For Serbian.
+# GUI Overview
+• 	Start/Stop button to control live listening
+• 	Language dropdown to switch between English () and Serbian ()
+• 	Save button to export the full transcript
+• 	Transparency slider to adjust window opacity
+# Limitations
+• 	Only supports Slovenian as the input language
+• 	Translation accuracy depends on Google Translate
+• 	GUI requires ; falls back to console mode if unavailable
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
 # Acknowledgments
-- Google Speech Recognition
-- Deep Translator
-- Tkinter (Python standard library)
+• 	Google Speech Recognition
+• 	Deep Translator
+• 	Tkinter (Python standard library)
