@@ -26,10 +26,12 @@ This tool was developed to assist newly arriving Serbian students and other inte
 - ``` bash
   python translator.py --source sl --target en'''
 - ```bash
-  --source sl'''
+  --source sl
+  '''
   sets Slovenian as the input language.
 - ```bash
-  --target en'''
+  --target en
+  '''
   sets English as the output language.
 - You can also use
   ```bash
