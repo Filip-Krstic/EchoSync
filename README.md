@@ -17,12 +17,12 @@ This tool was developed to assist newly arriving Serbian students and other inte
 - Optional: tkinter for GUI (pre-installed on most systems)
 # Installation
 - Clone the repository:
-- git clone https://github.com/yourusername/slovenian-translator.git cd slovenian-translator
+- ```bash git clone https://github.com/yourusername/slovenian-translator.git cd slovenian-translator'''
 - Install dependencies:
-- pip install -r requirements.txt
+- ```bash pip install -r requirements.txt'''
 - Run the translator:
-- python translator.py --source sl --target en
-- --source sl sets Slovenian as the input language. --target en sets English as the output language. You can also use --target sr for Serbian.
+- ```bash python translator.py --source sl --target en'''
+- ```bash --source sl''' sets Slovenian as the input language. ```bash --target en''' sets English as the output language. You can also use ```bash --target sr''' for Serbian.
 # GUI Overview- Start/Stop button to control live listening
 - Language dropdown to switch between English (en) and Serbian (sr)
 - Save button to export the full transcript
