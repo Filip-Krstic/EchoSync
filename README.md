@@ -21,10 +21,12 @@ This tool was developed to assist newly arriving Serbian students and other inte
   git clone https://github.com/yourusername/slovenian-translator.git cd slovenian-translator'''
 - Install dependencies:
 - ```bash
-  pip install -r requirements.txt'''
+  pip install -r requirements.txt
+  '''
 - Run the translator:
 - ``` bash
-  python translator.py --source sl --target en'''
+  python translator.py --source sl --target en
+  '''
 - ```bash
   --source sl
   '''
